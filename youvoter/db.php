@@ -1,15 +1,15 @@
 <?php
-$dbhost = 'localhost';
-$dbuser = 'root';
-$dbpass = '';
-$dbname = 'db.sql';
-//create a DB connection
-$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
-//if the DB connection fails, display an error message and exit
-if (!$conn)
-{
- die('Could not connect: ' . mysqli_error($conn));
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$db = "YouVoter";
+ 
+// Create connection
+$conn = new mysqli($servername, $username, $password,$db);
+ 
+// Check connection
+if ($conn->connect_error) {
+   die("Connection failed: " . $conn->connect_error);
 }
-//select the database
-mysqli_select_db($conn, $dbname);
-?>s
+//echo "Connected successfully";
+?>
