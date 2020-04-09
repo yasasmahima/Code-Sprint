@@ -1,0 +1,20 @@
+Readers Hub is a Online Book sharing Application
+
+Member 1
+Create User Log in Page and Sessions
+
+Member 2
+Create User Sign Up Page
+
+Member 3
+Here one user can get books available in the store 
+(Display Available Boks in the Index page. When click on the Add book in o the Cart.)
+
+Member 4
+Place Order Function
+
+Member 5
+Members are able to sell there books. (Add Books in to the System)
+
+Member 6
+Edit Users Profile(Name,Address,Tel No)
